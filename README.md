@@ -11,4 +11,9 @@ Number of prefixes by length
 56: 196
 60: 210
 64: 520
+
+Subnet 1 within a prefix by length:
+48: 2
+56: 20
+60: 43
 ```
