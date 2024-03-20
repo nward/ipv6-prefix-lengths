@@ -45,5 +45,7 @@ for address in addresses:
         prefix_lengths[64] += 1
 
 print("Total unique addresses: %d" % len(addresses))
+print()
+print("Number of prefixes by length")
 for prefix_length in prefix_lengths.keys():
     print("%d: %d" % (prefix_length, prefix_lengths[prefix_length]))
