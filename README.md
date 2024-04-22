@@ -12,6 +12,18 @@ Look for blocks of zeros in addresses between bits 48 and 63 (inclusive).
 
 For prefix lengths 48, 56, and 60, if bit 64 is 1, we assume the address is from a second subnet within the ISP assigned prefix.
 
+## Usage
+
+main.py takes either a PCAP file or text file.
+
+### PCAP file
+
+We look for any IPv6 address, source or destination.
+
+### Text file
+
+Expects a text file with one IP address per line.
+
 ## Issues
 
 This is not 100% accurate, but is "good enough" for getting a rough steer.
